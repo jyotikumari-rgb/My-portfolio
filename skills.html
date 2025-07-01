@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer portfolio</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+     body{
+        background-color:black;
+        color:white;
+     }
+
+     nav{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        height:45px;
+        background-color: rgb(18, 18, 67);
+     }
+    nav ul{
+        display:flex;
+        justify-content: center;
+     }
+     nav ul li{
+        list-style: none;
+        margin:0 20px;
+        font-size: 1.1rem;
+     }
+     nav ul li a{
+        color:white;
+     }
+     .left{
+        font-size: 30px;
+     }
+    
+
+     .firstsection{
+        display:flex;
+        justify-content: space-around;
+        margin-top:60px;
+        margin-left:80px;
+       font-family:initial;
+       font-size: 20px;
+     }
+     .firstsection div >{
+        width:50%;
+        background-color:red;
+
+     }
+     .firstsection leftsection Skill{
+      color:rgb(134, 106, 70);
+     }
+     .leftsection{
+        background-color:black;
+        font-size: 1.5rem;
+        margin-top:0px;
+        margin-left:20px;
+        padding:0px;
+     }
+     .rightsection img{
+        width:100%;
+        height:80%;
+        margin-top:20px;
+        margin-right:50px;
+        margin-left:50px;
+     }
+     
+
+   .purple{
+    color:rgb(89, 31, 144);
+   }
+     nav ul li a:hover{
+        color:rgb(241, 198, 198);
+     }
+     #element{
+        color:purple
+     }
+     #myskills{
+      margin-top:0;
+      color:aqua;
+      padding:20px;
+     }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">MY SKILLS</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About me</a></li>
+                    <li><a href="Skills.html">My Skills</a></li>
+                    <li><a href="contact.html">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+               <div id="myskills">My Skills</div>
+               <div class="Skill">C Programing language</div>
+               <div class="Skill">Java programing language</div>
+               <div class="Skill">Python</div>
+               <div class="Skill">Data Structures</div>
+               <div class="Skill">Algorithms</div>
+               <div class="Skill">HTML</div>
+               <div class="Skill">CSS</div>
+               <div class="Skill">JavaScript</div>
+               <div class="Skill">Node.js</div>
+               <div class="Skill">SQL</div>
+               <div class="Skill">Git and Github</div>
+               <div class="Skill">Database</div>
+               <span id="element"></span>
+            </div>
+            <div class="rightsection"><img src="https://previews.123rf.com/images/sdecoret/sdecoret1711/sdecoret171100544/89763939-hand-drawn-project-presentation-on-black-background.jpg" alt=""></div>
+        </section>
+    </main>
+    <!-- Setup and start animation!
+  
+    <!-- typed js -->
+    <!-- <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> 
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Coder', 'Web Developer','Engineering Student'],
+          typeSpeed: 50,
+        });
+      </script> --> -->
+</body>
+</html>
